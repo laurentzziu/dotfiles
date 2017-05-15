@@ -1,0 +1,22 @@
+{
+  "extensions":
+  [
+    "Gemfile.lock",
+    "simplecov",
+    "thor",
+    "podspec",
+    "Gemfile",
+    "Vagrantfile.all",
+    "Vagrantfile",
+    "Thorfile",
+    "rake",
+    "jbuilder",
+    "rabl",
+    "Vagrantfile.lead_playback",
+    "rb",
+    "Vagrantfile.ono_base"
+  ],
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "use_tab_stops": true
+}

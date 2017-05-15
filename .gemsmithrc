@@ -1,0 +1,29 @@
+:author:
+  :name: "Florin Gorgan"
+  :email: "florin@floringorgan.com"
+  :url: "http://floringorgan.com"
+  :homepage: "http://www.floringorgan.com"
+:organization:
+  :name: "Florin Gorgan"
+  :url: "http://www.floringorgan.com"
+  :homepage: "http://www.floringorgan.com"
+:versions:
+  :ruby: 2.3
+  :rails: "5.0"
+:generate:
+  :cli: false
+  :rails: true
+  :security: true
+  :pry: true
+  :guard: false
+  :rspec: true
+  :reek: true
+  :rubocop: false
+  :scss_lint: false
+  :git_hub: false
+  :code_climate: false
+  :gemnasium: false
+  :travis: false
+  :patreon: false
+:publish:
+  :sign: false

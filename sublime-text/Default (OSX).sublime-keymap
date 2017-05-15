@@ -1,0 +1,10 @@
+[
+  { "keys": ["super+v"], "command": "paste_and_indent" },
+  { "keys": ["enter"], "command": "commit_completion", "context":[{ "key": "auto_complete_visible" }]},
+  { "keys": ["f19"], "command": "goto_definition" },
+  { "keys": ["super+shift+k"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+  { "keys": ["home"], "command": "move_to", "args": {"to": "bol"} },
+  { "keys": ["end"], "command": "move_to", "args": {"to": "eol"} },
+  { "keys": ["f18"], "command": "find_all_under" },
+  { "keys": ["super+shift+v"], "command": "noop" }
+]

@@ -1,0 +1,5 @@
+[alias]
+    st = status
+[core]
+    hooksPath = ~/.git_hooks
+    excludesfile = ~/.gitignore_global
