@@ -1,29 +1,40 @@
+# path: ~/.config/gemsmith/configuration.yml
+
+:year: <current year>
+:github_user: "laurentzziu",
+:gem:
+  :label: "Undefined"
+  :name: "undefined"
+  :path: "undefined"
+  :class: "Undefined"
+  :platform: "Gem::Platform::RUBY"
+  :url: "https://github.com/<author>/<gem name>"
+  :license: "MIT"
 :author:
-  :name: "Florin Gorgan"
+  :name: "Florinel Gorgan"
   :email: "florin@floringorgan.com"
-  :url: "http://floringorgan.com"
-  :homepage: "http://www.floringorgan.com"
+  :url: "https://floringorgan.com"
 :organization:
-  :name: "Florin Gorgan"
-  :url: "http://www.floringorgan.com"
-  :homepage: "http://www.floringorgan.com"
+  :name: "Florinel Gorgan"
+  :url: "https://floringorgan.com"
 :versions:
-  :ruby: 2.3
-  :rails: "5.0"
+  :ruby: "<current Ruby version>"
+  :rails: "5.1"
 :generate:
   :cli: false
-  :rails: true
-  :security: true
+  :rails: false
+  :security: false
   :pry: true
-  :guard: false
+  :guard: true
+  :git_cop: true
   :rspec: true
   :reek: true
-  :rubocop: false
+  :rubocop: true
   :scss_lint: false
-  :git_hub: false
+  :git_hub: true
   :code_climate: false
   :gemnasium: false
-  :travis: false
+  :circle_ci: false
   :patreon: false
 :publish:
   :sign: false
